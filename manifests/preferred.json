@@ -132,6 +132,12 @@
       "replacements": ["util.styleText", "picocolors", "ansis"],
       "url": {"type": "e18e", "id": "chalk"}
     },
+    "classnames": {
+      "type": "module",
+      "moduleName": "classnames",
+      "replacements": ["clsx"],
+      "url": {"type": "e18e", "id": "classnames"}
+    },
     "clean-webpack-plugin": {
       "type": "module",
       "moduleName": "clean-webpack-plugin",
@@ -3232,6 +3238,7 @@
       "type": "documented",
       "replacementModule": "cleye"
     },
+    "clsx": {"id": "clsx", "type": "documented", "replacementModule": "clsx"},
     "color": {
       "id": "color",
       "type": "documented",
